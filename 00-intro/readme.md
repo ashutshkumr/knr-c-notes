@@ -41,8 +41,6 @@
 - All variables must be declared before they can be used and can be of following basic types:
     * char
     * int
-    * long
-    * short
     * float
     * double
 
@@ -118,10 +116,26 @@
     ```c
     int global_var;
 
-    int sum() {
+    int sum()
+    {
         extern int global_var;
         global_var = 500;
     }
     ```
 
     This is not mandatory if the global variable has been defined in the same source file before being referenced anywhere in the function.
+
+* Conventionally, this is how braces are used
+    ```c
+    /* braces surrounding function body are usually on its own line */
+    int main()
+    {
+        int i;
+        /* opening brace surrounding loop / if-else body isn't provided on its own line */
+        for (i = 0; i < 10; ++i) {
+            if (i == 5) {
+                break
+            }
+        }
+    }
+    ```
