@@ -101,7 +101,7 @@
     * The variables in parentheses (in function signature) are called formal arguments or parameters
     * When function is called, then whatever is enclosed within parentheses are called actual arguments (or just arguments)
     * Parameter names are optional in function prototype.
-    * Arguments are always passed by value.
+    * Arguments are always passed by value (unless passing an array name - which is a pointer to first element).
 
 - `main` returns 0 to indicate success, and non-zero to indicate failure.
 
