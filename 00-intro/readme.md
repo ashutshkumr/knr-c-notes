@@ -88,6 +88,10 @@
 - Compiler usually doesn't throw warning when `=` is used in place of `==`
 
 - The condition containing multiple `||` or `&&` operator stops evaluation midway, as soon as the truth or falsehood is known (e.g. the whole condition won't necessarily be evaluated)
+    ```c
+    /* getchar won't be executed if i < lim-1 evaluates to false */
+    for (i=0; i < lim-1 && (c=getchar()) != '\n' && c != EOF; ++i) s[i] = c;
+    ```
 
 - `Definition` refers to the place where the variable is created or assigned storage; `declaration` refers to places where the nature of the variable is stated but no storage is allocated.
 
