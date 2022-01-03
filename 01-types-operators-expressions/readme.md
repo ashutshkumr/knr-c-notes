@@ -67,4 +67,4 @@
     * Right shifting unsigned numbers always fills the vacated bits with 0
     * Right shifting signed numbers performs arithmetic shift (1 if negative, 0 if positive) - not always true
 
-- Conditional expressions: `z = exp1 ? exp2 : exp3;` => `if (exp1) { z = exp2; } else { z = exp3; }`
+- Conditional expressions (ternary operator): `z = exp1 ? exp2 : exp3;` => `if (exp1) { z = exp2; } else { z = exp3; }`
