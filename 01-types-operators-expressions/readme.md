@@ -1,4 +1,4 @@
-### 00 - Types, Operators and Expressions
+### 01 - Types, Operators and Expressions
 
 - Identifier / variable names
     * First character must be an alphabetical letter or `_`
