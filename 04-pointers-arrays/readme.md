@@ -1,4 +1,4 @@
-### 03 - Pointers and Arrays
+### 04 - Pointers and Arrays
 
 - A pointer is a 32-bit variable that contains address of a variable
 
